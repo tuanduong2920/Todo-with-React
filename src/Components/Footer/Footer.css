@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+
+}
+
+.footer Button {
+    font-family: 'Halvetica Neue',
+        Arial, Helvetica, sans-serif;
+ 
+    font-size: 13px;
+  
+    margin: 0px 8px;
+  
+}

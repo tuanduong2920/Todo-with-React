@@ -1,0 +1,39 @@
+.TodoItem {
+    font-family: 'Halvetica Neue',
+        Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #4d4d4d;
+    padding: 10px 5px;
+    border-bottom: 1px solid #EEE;
+    display: flex;
+    align-items: center;
+}
+
+.TodoItem:last-child {
+    border-bottom: none;
+}
+
+.TodoItem p {
+    margin: 0 10px;
+    font-size: 24px;
+    width: 430px;
+    word-break:break-word;
+}
+
+.TodoItem .notCheck:hover{
+    color: #08c;
+}
+
+.TodoItem .remove:hover{
+    color: #eb2f96;
+}
+
+.check{
+    color: #08c;
+}
+
+.TodoItem-done p {
+    text-decoration: line-through;
+    opacity: .3;
+} 

@@ -1,0 +1,47 @@
+.Home {
+
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #bebebe;
+
+}
+
+.Home .header {
+    padding: 10px 5px;
+    display: flex;
+    border-bottom: 1px solid #EEE;
+    align-items: center;
+}
+
+.Home .header img {
+    width: 32px;
+    cursor: pointer;
+}
+
+.Home .header input {
+    font-family: 'Halvetica Neue',
+        Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #4d4d4d;
+    padding-left: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+
+}
+
+.Home .header .icon {
+    font-size: 24px;
+}
+
+.Home .empty-text {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Halvetica Neue',
+        Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    opacity: .5;
+
+}
